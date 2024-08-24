@@ -6,84 +6,89 @@
     <title>XMAS LIST!</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <style>
-        @font-face {
-            font-family: 'dafont';
-            src: url('gtagfont.ttf') format('truetype');
-            font-weight: normal;
-            font-style: normal;
-        }
+    @font-face {
+        font-family: 'dafont';
+        src: url('gtagfont.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
 
-        body, button {
-            font-family: 'dafont2', dafont;
-        }
+    body, button {
+        font-family: 'dafont2', dafont;
+    }
 
-        body {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            text-align: center;
-        }
+    body {
+        background-color: #121212; /* Dark background color */
+        color: #e0e0e0; /* Light text color */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        text-align: center;
+    }
 
-        .container {
-            max-width: 90%; /*stupid mobile fix*/
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            box-sizing: border-box;
-        }
+    .container {
+        max-width: 90%; /* Responsive container width */
+        padding: 20px;
+        background-color: #1e1e1e; /* Darker container background */
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Darker shadow for better contrast */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+    }
 
-        h1 {
-            margin-bottom: 20px;
-            width: 100%;
-        }
+    h1 {
+        margin-bottom: 20px;
+        width: 100%;
+        color: #ffffff; /* Light color for headings */
+    }
 
-        p {
-            margin-bottom: 10px;
-            width: 100%;
-        }
+    p {
+        margin-bottom: 10px;
+        width: 100%;
+        color: #e0e0e0; /* Light color for paragraph text */
+    }
 
-        button {
-            margin: 10px 0;
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            border: none;
-            border-radius: 4px;
-            background-color: #007bff;
-            color: white;
-            transition: background-color 0.3s ease;
-            width: 100%;
-            max-width: 200px;
-        }
+    button {
+        margin: 10px 0;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+        background-color: #a87fba; /* Light purple background */
+        color: #ffffff; /* White text color */
+        transition: background-color 0.3s ease;
+        width: 100%;
+        max-width: 200px;
+    }
 
-        button:hover {
-            background-color: #0056b3;
-        }
+    button:hover {
+        background-color: #8e5f9b; /* Slightly darker purple on hover */
+    }
 
-        .button-group {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 100%;
-        }
+    .button-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
 
-        .footer {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            background-color: #f1f1f1; /* Adjust background color as needed */
-            text-align: center;
-            padding: 10px;
-            box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Optional for a slight shadow effect */
-        }
+    .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #1e1e1e; /* Match footer background with container */
+        color: #e0e0e0; /* Light text color */
+        text-align: center;
+        padding: 10px;
+        box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.3); /* Darker shadow for consistency */
+    }
 
     </style>
 </head>
@@ -94,7 +99,7 @@
 
         <div>
             <p>Google Pixel 9 (any color other than black. Pixel 8 as an alternative)</p>
-            <button onclick="window.location.href='https://www.bestbuy.com/site/google-pixel-9-128gb-unlocked-peony/6587824.p?skuId=6587824&contractId=unactivated&utm_source=feed&ref=212&loc=20610041673&gad_source=1&gclid=CjwKCAjw_ZC2BhAQEiwAXSgClt4XZxYN9bOTMITMKhe7KpBV1AhJepCcVS2XDJCmrGNTaWJHRTp8LhoC5EAQAvD_BwE&gclsrc=aw.ds';">Redirect</button>
+            <button onclick="window.location.href='https://www.bestbuy.com/site/google-pixel-9-128gb-unlocked-peony/6587824.p?skuId=6587824&contractId=unactivated&utm_source=feed&ref=212&loc=20610041673&gad_source=1&gclid=CjwKCAjw_ZC2BhAQEiwAXSgClt4XZxYN9bOTMITMKhe7KpBV1AhJepCcVS2XDJCmrGNTaWJHRTp8LhoC5EAQAvD_BwE&gclsrc=aw.ds';">Buy Thru BestBuy</button>
         </div>
 
         <div>
